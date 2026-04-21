@@ -1,6 +1,8 @@
 ## Book Store Project
 A full-stack web application for managing a book store, built with the MERN stack (MongoDB, Express.js, React, Node.js). This project allows users to perform CRUD (Create, Read, Update, Delete) operations on books.
 
+---
+
 ### Features
 - **View Books**: Display all books in a table or card format
 - **Add New Books**: Create new book entries with title, author, and publish year
@@ -8,6 +10,8 @@ A full-stack web application for managing a book store, built with the MERN stac
 - **Delete Books**: Remove books from the collection
 - **Responsive Design**: Works on desktop and mobile devices
 - **Real-time Notifications**: User feedback for all operations using toast notifications
+
+---
 
 ### Tech Stack
 #### Backend
@@ -25,6 +29,8 @@ A full-stack web application for managing a book store, built with the MERN stac
 - **Notistack** - Notification library for React
 - **React Icons** - Icon library
 - **ESLint** - Linting utility
+
+---
 
 ### Project Structure
 ```
@@ -62,13 +68,7 @@ book_store_project/
 │   └── eslint.config.js
 └── README.md
 ```
-
-### Prerequisites
-Before running this application, make sure you have the following installed:
-
-- **Node.js** (version 14 or higher) - [Download here](https://nodejs.org/)
-- **npm** or **yarn** - Package manager (comes with Node.js)
-- **MongoDB Atlas** account - For cloud database (or local MongoDB instance)
+---
 
 ### Installation
 1. **Clone the repository:**
@@ -88,6 +88,7 @@ Before running this application, make sure you have the following installed:
    cd frontend
    npm install
    ```
+---
 
 ### Running the Application
 1️⃣ **Start the backend server:**
@@ -108,6 +109,7 @@ Before running this application, make sure you have the following installed:
    ```
    http://localhost:5173
    ```
+---
 
 ### API Endpoints
 The backend provides the following REST API endpoints:
@@ -119,10 +121,7 @@ The backend provides the following REST API endpoints:
 - `PUT /books/:id` - Update a book by ID
 - `DELETE /books/:id` - Delete a book by ID
 
-### Acknowledgments
-- This project is based on a MERN stack 
-- Built with modern JavaScript and React best practices
-- Uses MongoDB Atlas for cloud database hosting
+---
 
 ### Author
 
